@@ -1,0 +1,221 @@
+20150710132342
+20150710132549
+20150710132913
+20150710133306
+20150710133512
+$ git clone "https://ravaboard:Gembird20@github.com/ravaboard/naujas.git" "/var/www/laravel/releases/20150710133656" --branch="master" --depth="1"
+git clone "https://ravaboard:Gembird20@github.com/ravaboard/naujas.git" "/var/www/laravel/releases/20150710133656" --branch="master" --depth="1"
+Cloning into '/var/www/laravel/releases/20150710133656'...
+/usr/local/bin/composer
+$ cd /var/www/laravel/releases/20150710133656
+$ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+cd /var/www/laravel/releases/20150710133656
+/usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+Warning: This development build of composer is over 60 days old. It is recommended to update it by running "/usr/local/bin/composer self-update" to get the latest version.
+Loading composer repositories with package information
+Installing dependencies from lock file
+  - Installing vlucas/phpdotenv (v1.1.1)
+    Loading from cache
+
+  - Installing symfony/var-dumper (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/translation (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/routing (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/process (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/http-foundation (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/event-dispatcher (v2.7.1)
+    Loading from cache
+
+  - Installing psr/log (1.0.0)
+    Loading from cache
+
+  - Installing symfony/debug (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/http-kernel (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/finder (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/dom-crawler (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/css-selector (v2.7.1)
+    Loading from cache
+
+  - Installing symfony/console (v2.7.1)
+    Loading from cache
+
+  - Installing swiftmailer/swiftmailer (v5.4.1)
+    Loading from cache
+
+  - Installing nikic/php-parser (v1.3.0)
+    Loading from cache
+
+  - Installing jakub-onderka/php-console-color (0.1)
+    Loading from cache
+
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2)
+    Loading from cache
+
+  - Installing dnoegel/php-xdg-base-dir (0.1)
+    Loading from cache
+
+  - Installing psy/psysh (v0.4.4)
+    Loading from cache
+
+  - Installing nesbot/carbon (1.20.0)
+    Loading from cache
+
+  - Installing mtdowling/cron-expression (v1.0.4)
+    Loading from cache
+
+  - Installing monolog/monolog (1.14.0)
+    Loading from cache
+
+  - Installing league/flysystem (1.0.4)
+    Loading from cache
+
+  - Installing jeremeamia/superclosure (2.1.0)
+    Loading from cache
+
+  - Installing doctrine/inflector (v1.0.1)
+    Loading from cache
+
+  - Installing danielstjules/stringy (1.9.0)
+    Loading from cache
+
+  - Installing symfony/filesystem (v2.7.1)
+    Loading from cache
+
+  - Installing classpreloader/classpreloader (1.4.0)
+    Loading from cache
+
+  - Installing laravel/framework (v5.1.3)
+    Loading from cache
+
+  - Installing mtdowling/jmespath.php (2.2.0)
+    Loading from cache
+
+  - Installing psr/http-message (1.0)
+    Loading from cache
+
+  - Installing guzzlehttp/psr7 (1.1.0)
+    Loading from cache
+
+  - Installing guzzlehttp/promises (1.0.1)
+    Loading from cache
+
+  - Installing guzzlehttp/guzzle (6.0.1)
+    Loading from cache
+
+  - Installing aws/aws-sdk-php (3.0.6)
+    Loading from cache
+
+  - Installing aws/aws-sdk-php-laravel (3.0.0)
+    Loading from cache
+
+  - Installing imagine/imagine (0.6.2)
+    Loading from cache
+
+  - Installing laravel/homestead (v2.1.3)
+    Loading from cache
+
+  - Installing pda/pheanstalk (dev-master 6229562)
+    Loading from cache
+
+  - Installing predis/predis (dev-master b8decc7)
+    Loading from cache
+
+Generating autoload files
+Generating optimized class loader
+Compiling common classes
+$ cd /var/www/laravel/releases/20150710133656
+$ chmod -R 755 /var/www/laravel/releases/20150710133656/app/database/production.sqlite
+$ chmod -R g+s /var/www/laravel/releases/20150710133656/app/database/production.sqlite
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133656/app/database/production.sqlite
+cd /var/www/laravel/releases/20150710133656
+chmod -R 755 /var/www/laravel/releases/20150710133656/app/database/production.sqlite
+chmod -R g+s /var/www/laravel/releases/20150710133656/app/database/production.sqlite
+chown -R www-data:www-data /var/www/laravel/releases/20150710133656/app/database/production.sqlite
+chmod: cannot access ‘/var/www/laravel/releases/20150710133656/app/database/production.sqlite’: No such file or directory
+$ cd /var/www/laravel/releases/20150710133656
+$ chmod -R 755 /var/www/laravel/releases/20150710133656/storage
+$ chmod -R g+s /var/www/laravel/releases/20150710133656/storage
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133656/storage
+cd /var/www/laravel/releases/20150710133656
+chmod -R 755 /var/www/laravel/releases/20150710133656/storage
+chmod -R g+s /var/www/laravel/releases/20150710133656/storage
+chown -R www-data:www-data /var/www/laravel/releases/20150710133656/storage
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework/sessions/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework/sessions’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework/cache/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework/cache’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework/views/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework/views’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/framework’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/app/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/app’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/logs/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage/logs’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/storage’: Operation not permitted
+$ cd /var/www/laravel/releases/20150710133656
+$ chmod -R 755 /var/www/laravel/releases/20150710133656/public
+$ chmod -R g+s /var/www/laravel/releases/20150710133656/public
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133656/public
+cd /var/www/laravel/releases/20150710133656
+chmod -R 755 /var/www/laravel/releases/20150710133656/public
+chmod -R g+s /var/www/laravel/releases/20150710133656/public
+chown -R www-data:www-data /var/www/laravel/releases/20150710133656/public
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/public/robots.txt’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/public/index.php’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/public/favicon.ico’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/public/.htaccess’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133656/public’: Operation not permitted
+$ cd /var/www/laravel/releases/20150710133656
+$ chmod -R 755 /var/www/laravel/releases/20150710133656/releases
+$ chmod -R g+s /var/www/laravel/releases/20150710133656/releases
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133656/releases
+cd /var/www/laravel/releases/20150710133656
+chmod -R 755 /var/www/laravel/releases/20150710133656/releases
+chmod -R g+s /var/www/laravel/releases/20150710133656/releases
+chown -R www-data:www-data /var/www/laravel/releases/20150710133656/releases
+chmod: cannot access ‘/var/www/laravel/releases/20150710133656/releases’: No such file or directory
+$ rm -rf /var/www/laravel/releases/20150710133656/storage/logs
+rm -rf /var/www/laravel/releases/20150710133656/storage/logs
+
+$ ln -s /var/www/laravel/shared/storage/logs /var/www/laravel/releases/20150710133656/storage/logs-temp
+$ mv -Tf /var/www/laravel/releases/20150710133656/storage/logs-temp /var/www/laravel/releases/20150710133656/storage/logs
+ln -s /var/www/laravel/shared/storage/logs /var/www/laravel/releases/20150710133656/storage/logs-temp
+mv -Tf /var/www/laravel/releases/20150710133656/storage/logs-temp /var/www/laravel/releases/20150710133656/storage/logs
+
+$ ln -s /var/www/laravel/releases/20150710133656 /var/www/laravel/current-temp
+$ mv -Tf /var/www/laravel/current-temp /var/www/laravel/current
+ln -s /var/www/laravel/releases/20150710133656 /var/www/laravel/current-temp
+mv -Tf /var/www/laravel/current-temp /var/www/laravel/current
+
+$ cd /var/www/laravel/releases/20150710133656
+$ php artisan migrate:refresh --force
+cd /var/www/laravel/releases/20150710133656
+php artisan migrate:refresh --force
+Migration table not found.
+Migration table created successfully.
+Migrated: 2014_10_12_000000_create_users_table
+Migrated: 2014_10_12_100000_create_password_resets_table
+Migrated: 2015_06_26_080348_create_failed_jobs_table
+Migrated: 2015_06_26_080537_create_jobs_table
+$ rm -rf /var/www/laravel/releases/20150710132342
+rm -rf /var/www/laravel/releases/20150710132342
+
+|=> Removing <info>1 release</info> from the server
