@@ -1,0 +1,13 @@
+20150710132913
+20150710133306
+20150710133512
+20150710133656
+$ git clone "https://ravaboard:Gembird20@github.com/ravaboard/expand.git" "/var/www/laravel/releases/20150713063442" --branch="master" --depth="1"
+git clone "https://ravaboard:Gembird20@github.com/ravaboard/expand.git" "/var/www/laravel/releases/20150713063442" --branch="master" --depth="1"
+Cloning into '/var/www/laravel/releases/20150713063442'...
+fatal: Remote branch master not found in upstream origin
+$ cd /var/www/laravel/releases/20150713063442
+$ php artisan migrate:refresh --force
+cd /var/www/laravel/releases/20150713063442
+php artisan migrate:refresh --force
+bash: line 0: cd: /var/www/laravel/releases/20150713063442: No such file or directory
